@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 
 
 function App() {
-  // const API_KEY = "AIzaSyB1XT3ek-ACQrvSYJMebDSNLdBB6Ti4Apg";
+
   const API_KEY = process.env.REACT_APP_GEMINI_API_KEY ;
   const [availableModels, setAvailableModels] = useState([]);
   const [loading, setLoading] = useState(true);
